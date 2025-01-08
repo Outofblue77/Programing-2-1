@@ -19,5 +19,6 @@ public class CircleMouseAttempt : MonoBehaviour
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = mousePos;
+
     } 
 }
