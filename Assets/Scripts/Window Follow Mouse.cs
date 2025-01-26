@@ -14,6 +14,7 @@ public class WindowFollowMouse : MonoBehaviour
     void Update()
     {
         Vector2 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //follow mouse position based on screen
 
         posMouse.x -= 1.7f;
         posMouse.y += 0.1f;

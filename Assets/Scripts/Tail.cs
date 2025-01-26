@@ -14,6 +14,7 @@ public class Tail : MonoBehaviour
     void Update()
     {
         Vector2 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //follow mouse position based on screen
 
         posMouse.x += 2.3f;
         posMouse.y += 0.5f;

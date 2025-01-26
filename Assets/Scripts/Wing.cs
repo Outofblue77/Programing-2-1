@@ -15,6 +15,7 @@ public class Wing : MonoBehaviour
     void Update()
     {
         Vector2 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //follow mouse position based on screen
 
         posMouse.y -= 0.2f;
         posMouse.x += 0.2f;

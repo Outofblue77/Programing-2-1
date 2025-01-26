@@ -14,11 +14,13 @@ public class PlaneHeadFollowMouse : MonoBehaviour
     void Update()
     {
         Vector2 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //follow mouse position based on screen
 
         posMouse.x -=  1.8f;
+        //Adjustment to stay slightly off
 
         transform.position = posMouse;
-
+        // Update position based from variable
 
     }
 }

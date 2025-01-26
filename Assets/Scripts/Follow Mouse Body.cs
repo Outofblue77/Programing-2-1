@@ -14,9 +14,10 @@ public class FollowMouse : MonoBehaviour
     void Update()
     {
         Vector2 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        // Made to capture mouse based on user screen size
 
         transform.position = posMouse;
-
+        // Update position with created variable
 
     }
 }
